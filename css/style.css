@@ -286,7 +286,7 @@ a {
     height: 4px;
     background: #ca0000;
     position: absolute;
-    bottom: -21px;
+    bottom: -22px;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     z-index: 9999;
