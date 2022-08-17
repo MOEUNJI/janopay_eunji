@@ -1,0 +1,238 @@
+@media (max-width : 1250px) {
+    .section_1-2-3,
+    .payment-text {
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .header-img-wrap {
+        width: 200px;
+    }
+
+    .footer-mar {
+        width: 100%;
+        padding: 0 32px;
+    }
+}
+    
+    @media (max-width : 1200px){
+        figure > img {
+            width: 320px;
+        }
+
+        .free-account-img {
+            width: 320px;
+        } 
+
+        .qr {
+            /* width: 35px; */
+        }
+
+        .sign-up_sign-in {
+            width: 330px;
+        }
+
+        .web-header {
+            display: none;
+        }
+
+        .m-header {
+            display: block;
+            position: fixed;
+            z-index: 999;
+            width: 100%;
+            background: #Fff;
+        }
+
+        .q {
+            margin-right: 10px;
+        }
+
+        select {
+            color: #000;
+        }
+
+        .world-free-start > img {
+            object-fit: cover;
+            object-position: 30% 50%;
+        }
+
+        .title {
+            font-size: 32px;
+        }
+        .sub-text {
+            font-size: 16px;
+        }
+    }
+    @media (max-width : 960px){
+        .f-wrap-mar {
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .blue-text-btn > a {
+            font-size: 16px;
+        }
+
+        .text-area {
+            width: 100%;
+            padding: 0;
+            margin: 60px 0 50px 0;
+        }
+
+        .business,
+        .inquiry {
+            flex-direction: column;
+            margin: 0;
+        }
+        .business-text,
+        .inquiry-text {
+            margin: 60px auto 50px auto;
+            height: auto;
+            width: 100%;
+            padding: 0 30px;
+        }
+
+        .b-img-figure,
+        .qr-figure {
+            width: 100%;
+        }
+
+        .b-img-figure > img {
+            height: auto;
+        }
+
+        .qr1 {
+            top: 85px;
+        }
+
+        .qr2 {
+            left: 55%;
+        }
+
+        .qr3,
+        .qr1 {
+            left: 25%;
+        }
+
+        .qr-gray-back,
+        .qr-red-back {
+            width: 170px;
+            height: 55px;
+        } 
+
+        .text1 {
+            font-size: 14px;
+        }
+
+        .text2 {
+            font-size: 12px;
+        }
+
+        .title {
+            font-size: 21px;
+        }
+
+        .sub-text {
+            font-size: 14px;
+        }
+
+        .media-br {
+            display: block;
+        }
+
+        .payment-title {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .payment-sub-text {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .web-br {
+            display: none;
+        }
+
+        .media-br {
+            display: block;
+        }
+
+        .footer-mar {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-mar > p {
+            margin-bottom: 20px;
+        }
+
+        .font-white {
+            margin-bottom: 20px;
+        }
+
+        .world-free-start-text {
+
+            padding: 60px 0 40px;
+            padding: 0 32px;
+            width: 100%;
+        }
+        
+        .world-free-start {
+            height: 300px;
+            margin-top: 50px;
+        }
+
+        .payment-img {
+            height: 600px;
+        } 
+    }
+
+    @media (max-width : 570px){
+        .qr1,
+        .qr3 {
+            left: 10%;
+        }
+    }
+
+    @media (max-width : 375px){
+        .section_1-2-3,
+        .payment-text {
+            width: 100%;
+            padding: 0 32px;
+        }
+
+        .title,
+        .sub-text {
+            margin-bottom: 20px;
+        }
+
+         .qr1 {
+            top: 85px;
+            left: 0px;
+        }
+
+        .qr2 {
+            left: 50%;
+        }
+
+        .qr3 {
+            left: 10px;
+        }
+
+        .world-free-start > img {
+            object-fit: cover;
+            width: 375px;
+            height: 300px;
+        }
+
+        .web-blue-btn {
+            display: none;
+        }
+
+        .m-blue-btn {
+            display: block;
+        }
+    }

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>janopay</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header>
+        <div class="web-header">
+            <div class="header-img-wrap">
+                <h1>
+                    <a href="#">
+                        <img class="w-logo-img white-logo" src="./images/white-logo.png" alt="로고이미지">
+                        <img class="w-logo-img hover-logo" src="./images/header-logo.png" alt="로고이미지">
+                    </a>
+                </h1>
+            </div>
+            
+            <ul class="nav">
+                <li class="main-nav first">
+                    <span>
+                        <a class="header-main-menu" href="#">
+                            개인
+                        </a>
+                    </span>
+                    <ul class="sub-menu1">
+                        <li class="sub-title">
+                            쇼핑 및 구매방법
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">온라인쇼핑</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">오프라인 키오스크</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">QR코드로 결제</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">자노페이 신용카드</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub-title">
+                            보내기 및 받기
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">자산 보내기</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">자산 요청</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">입금 받기</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">수수료</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub-title">
+                            자산관리
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">지불방법</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="main-nav second">
+                    <span>
+                        <a class="header-main-menu" href="#">
+                            비즈니스
+                        </a>
+                    </span>
+                    <ul class="sub-menu2">
+                        <li class="sub-title">
+                            시작방법
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">시작하기</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">지불수락</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">결제하기</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">위험관리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub-title">
+                            운영방법
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">기업에 관해</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">플랫폼 및 기능</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">지불 방법</a>
+                                </li>
+                                <li class="sub-nav">
+                                    <a href="#">글로벌 결제 처리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sub-title">
+                            자산관리
+                            <ul class="sub2-menu1">
+                                <li class="sub-nav">
+                                    <a href="#">지불방법</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>
+                        <a class="header-main-menu" href="#">
+                            개발
+                        </a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <a class="header-main-menu" href="#">
+                            고객센터
+                        </a>
+                    </span>
+                </li>
+            </ul>
+
+            <div class="sign-up_sign-in">
+                <div class="lan">
+                    <img src="./images/lan.png" alt="다국어">
+                    <select class="select" name="다국어">
+                        <option value="한국어" selected>한국어</option>
+                        <option value="일본어">日本語</option>
+                        <option value="영어">English</option>
+                    </select>
+                </div>
+                <a class="sign in">
+                    로그인
+                </a>
+                <a class="sign up">
+                    가입하기
+                </a>
+            </div>
+        </div>
+
+        <div class="m-header">
+            <div class="all-header">
+                <img class="m-header-logo" src="./images/header-logo.png" alt="로고이미지">
+                <img class="ham-img" src="./images/header-hamburger.png" alt="메뉴">
+            </div>
+
+            <div class="m-ham-click">
+                <div class="m-content-top">
+                    <div class="m-click-header">
+                        <div class="m-click-header-logo">
+                            <img class="m-header-logo" src="./images/header-logo.png" alt="로고이미지">
+                        </div>
+                        <div class="m-click-header-right">
+                            <div class="lan">
+                                <img src="./images/lan.png" alt="다국어">
+                                <select name="다국어">
+                                    <option value="한국어" selected>한국어</option>
+                                    <option value="日本語">日本語</option>
+                                    <option value="English">English</option>
+                                </select>
+                            </div>
+                            <img class="q" src="./images/q.png" alt="도움말">
+                            <img class="close" src="./images/close.png" alt="닫기">
+                        </div>
+                    </div>
+                
+                    <div class="m-click-login">
+                        <p class="m-click-login-text">
+                            로그인하여 
+                            <br>
+                            더 많은 정보를 확인해 보세요.
+                        </p>
+                        <div class="login-zone">
+                            <p class="m-click-login-content b-login">
+                                <a href="#">LOGIN</a>
+                            </p>
+                            <p class="m-click-login-content join">
+                                <a href="#">JOIN</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-area">
+                    <ul class="all-accordion-ul">
+                        <li class="accordion-main-menu">
+                            개인
+                            <span class="arr-content"></span>
+                            <ul class="accordion-sub-menu">
+                                <li class="accordion-sub-menu-list">
+                                    쇼핑 및 구매방법
+                                    <span class="arr-content in-arr"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">온라인 쇼핑</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">오프라인 키오스크</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">QR코드로 결제</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">자노페이 신용카드</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">거래 및 캐시백</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="accordion-sub-menu-list">
+                                    보내기 및 받기
+                                    <span class="arr-content"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">자산 보내기</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">자산 요청</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">입금 받기</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">수수료</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="accordion-sub-menu-list">
+                                    자산관리
+                                    <span class="arr-content"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">지갑</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">계좌</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">JPYS 추가</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">판매하기</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">환전하기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-main-menu">
+                            비즈니스
+                            <span class="arr-content"></span>
+                            <ul class="accordion-sub-menu">
+                                <li class="accordion-sub-menu-list">
+                                    시작방법
+                                    <span class="arr-content"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">시작하기</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">솔루션</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">지불수락</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">결제하기</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">위험관리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="accordion-sub-menu-list">
+                                    운영방법
+                                    <span class="arr-content"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">기업에 관해</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">플랫폼 및 기능</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">지불 방법</a>
+                                        </li>
+                                        <li class="accordion-last-list">
+                                            <a href="#">글로벌 결제 처리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="accordion-sub-menu-list">
+                                    자산관리
+                                    <span class="arr-content"></span>
+                                    <ul class="accordion-last">
+                                        <li class="accordion-last-list">
+                                            <a href="#">지불방법</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-main-menu">개발</li>
+                        <li class="accordion-main-menu">
+                            고객센터
+                            <span class="arr-content"></span>
+                            <ul class="accordion-sub-menu">
+                                <li class="accordion-last-list">
+                                    <a href="#">공지사항</a>
+                                </li>
+                                <li class="accordion-last-list">
+                                    <a href="#">1:1 문의</a>
+                                </li>
+                                <li class="accordion-last-list">
+                                    <a href="#">문의내역</a>
+                                </li>
+                                <li class="accordion-last-list">
+                                    <a href="#">자주 묻는 질문</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="all-container">
+        <section class="main">
+            <img class="payment-img" src="./images/main.png" alt="">
+            <div class="payment-text">
+                <h2 class="payment-title">
+                    아직도 암호자산으로
+                    <br>
+                    결제가 불가능 하다고
+                    <br> 
+                    생각 하시나요?
+                </h2>
+                <p class="payment-sub-text">
+                    암호자산을 환전하지 않고 바로 결제가능
+                </p>
+                <button class="red-btn main-btn">
+                    암호자산 즉시결제
+                </button>
+            </div>
+        </section>
+        <section class="section_1-2-3">
+            <div class="f-wrap-mar">
+                <div class="text-area">
+                    <h2 class="title">
+                        자노페이,
+                        <br>
+                        안전과 속도를 동시에
+                    </h2>
+                    <p class="sub-text">
+                        블록체인의 안전성과 자노페이만의 기술력으로<br class="web-br">
+                        가장 빠른 결제 시스템을 만나보시기 바랍니다.
+                    </p>
+                    <div class="blue-text-btn">
+                        <a href="#">
+                            회원 가입하기
+                        </a>
+                        <img src="./images/web-blue-btn.png" alt="회원 가입하기">
+                    </div>
+                </div>
+
+                <figure>
+                    <img src="./images/sign-up-img.png" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <section class="section_1-2-3">
+            <div class="f-wrap-mar f-d-c">
+                <div class="text-area">
+                    <h2 class="title">
+                        우리는
+                        <br>
+                        무료로 제공합니다.
+                    </h2>
+                    <p class="sub-text">
+                        기술은 최고,서비스도 최고,최고의 플랫폼
+                        <br>
+                        그래도 자노페이는 무료입니다.
+                    </p>
+                    <div class="blue-text-btn">
+                        <a href="#">
+                            무료 계정 만드는 방법
+                        </a>
+                        <img src="./images/web-blue-btn.png" alt="무료 계정 만드는 방법">
+                    </div>
+                </div>
+
+                <figure>
+                    <img class="free-account-img" src="./images/free-account.png" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <section class="section_1-2-3">
+            <div class="f-wrap-mar">
+                <div class="text-area">
+                    <h2 class="title">
+                        자노페이는
+                        <br>
+                        장점이 너무 많습니다.
+                    </h2>
+                    <p class="sub-text">
+                        자노페이는 카드가 필요 없습니다.
+                        <br>
+                        네트워크만 연결되어 있으면 어디에서든
+                        <br>
+                        자노페이에 접속해서 결제가 가능합니다.
+                    </p>
+                    <p class="sub-text">
+                        QR코드를 통해 즉시 결제도 가능합니다.
+                        <br>
+                        오프라인에서는 키오스크와 포스기를 통해
+                        <br>
+                        결제도 가능합니다.
+                    </p>
+                    <div class="blue-text-btn">
+                        <a href="#">
+                            쇼핑 및 구매방법
+                        </a>
+                        <img src="./images/web-blue-btn.png" alt="쇼핑 및 구매방법">
+                    </div>
+                </div>
+
+                <figure class="qr-figure">
+                    <img class="qr" src="./images/qr-code.png" alt="">
+                    <div class="qr-gray-back qr1">
+                        <p class="qr-sub text1">자노페이 결제</p>
+                        <p class="qr-sub text2">어디에서든 결제 가능</p>
+                    </div>
+                    <div class="qr-red-back qr2">
+                        <p class="qr-sub text1">QR코드 결제</p>
+                        <p class="qr-sub text2">결제QR코드로 간편하게 결제</p>
+                    </div>
+                    <div class="qr-gray-back qr3">
+                        <p class="qr-sub text1">키오스크와 포스</p>
+                        <p class="qr-sub text2">오프라인에서 편리하게 결제</p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <section class="world-free-start">
+            <img src="./images/world-back.png" alt="">
+            <div class="world-free-start-text">
+                <h2 class="title font-white">
+                    전 세계 어디에서나 사용이 가능합니다.
+                </h2>
+                <p class="sub-text font-white">
+                    누구나 사용이 가능하고 어디에서나 사용이 가능합니다.
+                    <br>
+                    암호자산의 가낭 큰 매력을 자노페이는 알고 있습니다.
+                    <br>
+                    우리는 전세계에 암호자산의 사용 방법에 대해 알려주는      길잡이가 되려 합니다.
+                </p>
+                <button class="red-btn">
+                    무료로 시작하기
+                </button>
+            </div>
+        </section>
+
+        <section class="business">
+            <div class="business-text">
+                <h2 class="title">
+                    비즈니스 회원 마저도
+                    <br>
+                    무료로 사용하세요.
+                </h2>
+                <p class="sub-text">
+                    비즈니스를 폭 넓게 하는 방법을 찾고 있으신가요?
+                    <br>
+                    아직도 통화쌍으로만 결제하시나요?
+                    <br>
+                    전세계 인구가 사용중인 암호자산으로 결제를 받아보세요.
+                </p>
+                <div class="blue-text-btn">
+                    <a href="#">
+                        비즈니스 상점 개설
+                    </a>
+                    <img src="./images/web-blue-btn.png" alt="비즈니스 상점 개설">
+                </div>
+            </div>
+            <figure class="b-img-figure">
+                <img src="./images/business.png" alt="비즈니스 상점 개설">
+            </figure>
+        </section>
+
+        <section class="inquiry">
+            <div class="inquiry-text">
+                <h2 class="title">
+                    우리는
+                    <br>
+                    당신의 목소리를 듣습니다.
+                </h2>
+                <p class="sub-text">
+                    자노페이는 항상 고객분들의 말을 듣고 실천하고 있습니다.
+                </p>
+                <div class="blue-text-btn">
+                    <a href="#">
+                        문의하기 
+                    </a>
+                    <img src="./images/web-blue-btn.png" alt="문의하기">
+                </div>
+            </div>
+            <figure class="b-img-figure">
+                <img src="./images/inquiry.png" alt="비즈니스 상점 개설">
+            </figure>
+        </section>
+
+        <footer>
+            <div class="footer-mar">
+                <p>ⓒ JANOPAY.ALL Rights Reserved</p>
+                <div class="footer-menu">
+                    <ul>
+                        <li class="footer-line">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer-line">
+                            <a href="#">
+                                Privacy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Cookies
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
