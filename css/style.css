@@ -118,6 +118,8 @@ body {
     padding: 18px 26px;
     border-bottom: 1px solid #ddd;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .accordion-sub-menu,
@@ -132,7 +134,6 @@ body {
 .arr-content {
     display: block;
     position: absolute;
-    bottom: 40%;
     right: 15px;
     margin: 0 auto;
     width: 8px;
@@ -142,6 +143,20 @@ body {
     transform: translateY(-2px) rotate(45deg);
     transition: transform 0.2s ease;
     cursor: pointer;
+}
+
+.accordion-sub-menu-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.in-arr {
+    right: 0;
+
 }
 
 /* ----------------------------------------- */
